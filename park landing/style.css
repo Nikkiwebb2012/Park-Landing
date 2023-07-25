@@ -1,0 +1,174 @@
+*{
+    font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(189, 249, 203);
+}
+header{
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    color:black;
+    text-shadow: 2px 
+    2px #129724;
+    font-size:xx-large;
+    font-weight: 800;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position:fixed;
+    top: 0px;
+}
+
+
+.nav-contaniner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar-brand{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item{
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+a:hover{
+    color: green;
+
+}
+
+
+.background{
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+
+h2{
+    margin: 0%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color:black;
+}
+
+.image-grid{
+    --gap:16px;
+    --num-cols:4;
+    --row-hight:300px;
+    box-sizing:border-box;
+    padding: var(--gap);
+
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols),1fr);
+    grid-auto-rows: var(--row-hight);
+    gap: var(--gap);
+
+}
+
+.image-grid > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.image-grid-col-2{
+    grid-column: span 2;
+}
+
+.image-grid-row-2{
+    grid-row: span 2;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .image-grid{
+        --num-cols:2;
+        --row-hight: 200px;
+    }
+    
+}
+
+.map-it{
+    display: flex;
+    justify-content: center;
+    height: 500px;    
+}
+
+
+footer{
+    margin-bottom: 0px;
+}
+
+.bottom{
+    background-color: rgb(189, 249, 203);
+    color: black;
+    font-size: larger;
+    font-weight: 700;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+
+.footinfo{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+
+.foothead{
+    font-size: 2em;
+}
+
+.tiny{
+    margin: 3px;
+}
