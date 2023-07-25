@@ -34,7 +34,7 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(150, 245, 163);
     position:fixed;
     top: 0px;
 }
