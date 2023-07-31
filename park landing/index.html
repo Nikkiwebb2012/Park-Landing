@@ -1,97 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
-    <title>Grayson Lake Park</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="style.css">
+<title>grayson lake</title>
 </head>
 <body>
-    <!-- Navbar -->
+<!-- navbar -->
 
-    <nav>
-        <div class="nav-container">
-            <div class="nav-brand"><a href="#">Grayson Lake Park</a></div>
-        </div>
-        <div class="nav-list">
-            <ul>
-                <li class="nav-item"><a href="#Home">Home</a></li>
-                <li class="nav-item"><a href="#Photos">Photos</a></li>
-                <li class="nav-item"><a href="#Maps">Maps</a></li>
-                <li class="nav-item"><a href="#Contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
 
-    <!-- landing one -->
 
-    <section class="main-landing">
-        <div>
-            <img src="images/graysonlakebackground.jpg" alt="" class="Background">
-        </div>
-        <header>
-        Welcome to Grayson Lake Park</h1>
-        </header>
-    </section>
 
-    <!-- photos -->
 
-    <section>
-        <h2>A Brief Look at some of the Best Views of Grayson Lake</h2>
-
-        <div class="image-grid" href="#Photos">
-            <img class="image-grid-col-2 image-grid-row-2" src="images/grotto.jpg" alt="">
-            <img src="images/lake2.jpg" alt="">
-            <img src="images/graysonlakeboatdock.jpg" alt="">
-            <img src="images/graysonlakemarina1.jpg" alt="">
-            <img src="images/falls.jpg" alt="">
-            <img src="images/graysonlakedam.jpg" alt="">
-            <img src="images/graysonlakecamping.jpg" alt="">
-            <img src="images/graysoninthefall.jpg" alt="">
-            <img src="images/graysonake4.jpg" alt="">
-            <img src="images/clliftycreek.jpg" alt="">
-            <img src="images/graysonboats.jpg" alt="">
-            <img src="images/maninyack.jpg" alt="">
-            <img src="images/bridge.jpg" alt="">
-        </div>
-    </section>
-
-    <!-- Maps -->
-
-    <section>
-        <H2>Help getting around our park!</H2>
-        <div class="map-it" href="#Maps">
-
-<img src="images/map2.png" alt="">
-        </div>
-    </section>
-
-<!-- footer -->
-
-    <footer>
-        <div class="bottom">
-           
-                <div class="footinfo">
-                    <div class="foothead">Contact Us</div>
-                    <div class="location">
-                        <p class="tiny"><i class="fa-solid fa-location-dot"></i>Grayson, Ky 41143 USA</p>
+<nav class="navbar navbar-expand-lg py-3 ">
+    <div class="pe-lg-0 ps-lg-5 container-fluid justify-content-between">
+        <a class="navbar-brand" href="#">
+            <img src="images/graysonlakelogo.jpeg" height="60" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <div class="nav_left d-lg-flex align-items-center">
+                <nav>
+                    <div class="nav d-block d-lg-flex nav-tabs" id="nav-tab" role="tablist">
+                        <button class="nav-link active" id="#home-tab" data-bs-toggle="tab" data-bs-target="#home"
+                            type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                        <button class="nav-link" id="#Photo-gallery-tab" data-bs-toggle="tab" data-bs-target="#about"
+                            type="button" role="tab" aria-controls="photo gallery" aria-selected="false">Photo Gallery</button>
+                        <button class="nav-link" id="#park-map-tab" data-bs-toggle="tab" data-bs-target="#timing"
+                            type="button" role="tab" aria-controls="Park-maps" aria-selected="false">Park Maps</button>
+                       
                     </div>
-                    <div class="email">
-                        <p class="tiny"><i class="fa-solid fa-envelope"></i>example@example.com</p>
-                    </div>
-                    <div class="phone">
-                        <p class="tiny"><i class="fa-solid fa-phone"></i>Call us: (606)555-5555</p>
-                    </div>
+                </nav>
+                <div class="position-relative d-inline-block me-lg-4">
+                    <input class="search_input ms-5 mb-3 mb-lg-0 ms-lg-0 pe-5 ps-3" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <img class="position-absolute search_img" src="images/graysonlakelogo.jpeg" width="16" height="16"
+                        alt="twitter">
                 </div>
-                
-                </div>
-
-                </div>
+            </div>
         </div>
-    </footer>
+    </div>
+</nav>
+
+
+
+
+<!-- header -->
+
+<div 
+class="masthead"
+style="background-image: url(/images/graysonlakebackground.jpg);"
+>
+<div class="color-overlay d-flex 
+justify-content-center align-items-center">
+<h1>Welcome to Grayson Lake Park</h1>
+</div>
+
+</div>
+
+<!-- Gallery -->
+
+<h2 class="hedder2">Some of The Best Views around</h2>
+
+<section class="gallery min-vh-100" id="#Photo-gallery-tab">
+    <div class="container-large" >
+        <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3">
+            <div class="col">
+                <img src="images/bridge.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/clliftycreek.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/falls.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/glbg.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/graysonake4.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/graysonboats.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/graysoninthefall.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/graysonlakeboatdock.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/graysonlakecamping.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/graysonlakedam.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/graysonlakemarina1.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/grotto.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/grotto2.JPG" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/lake1.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/lake2.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/lake3.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/maninyack.jpg" class="gallery-item" alt="galley">
+            </div>
+            <div class="col">
+                <img src="images/waterfall.jpg" class="gallery-item" alt="galley">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Park Maps -->
+
+<section id="#park-map-tab">
+
+    <h2 class="hedder">Some Maps of our park</h2>
+
+    <div class="lightbox">
+        <div class="row">
+          <div class="col-lg-6">
+            <img
+              src="images/graysonakemap.jpg"
+              data-mdb-img="images/graysonakemap.jpg"
+              alt=""
+              class="w-100 mb-2 mb-md-4 shadow-1-strong rounded"
+            />
+            <img
+              src="images/map2.png"
+              data-mdb-img="images/map2.png"
+              alt=""
+              class="w-100 shadow-1-strong rounded"
+            />
+          </div>
+          <div class="col-lg-6">
+            <img
+              src="images/faketrailmap.png"
+              data-mdb-img="images/faketrailmap.png"
+              alt="Trail map"
+              class="w-100 shadow-1-strong rounded"
+            />
+          </div>
+        </div>
+      </div>
+
+    
+</section>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
 </body>
 </html>
